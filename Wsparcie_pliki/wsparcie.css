@@ -1,0 +1,127 @@
+.financial-support {
+    height: auto;
+    color: #fff;
+}
+
+.financial-support-title {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.financial-support-cont {
+    height: 773px;
+    width: 302px;
+    background: #1C1C20;
+    border-radius: 5px;
+    margin: 5rem auto;
+    text-align: left;
+}
+
+.financial-support-cont:nth-child(3) {
+    height: 1025px;
+    width: 302px;
+    background: #1C1C20;
+    border-radius: 5px;
+    margin: 5rem auto;
+    text-align: left;
+}
+
+
+.financial-support-cont-box {
+    padding-top: 10px;
+    padding-left: 21px;
+}
+
+.financial-support-cont-box p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.financial-support-cont-box-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.financial-support-cont-box {
+    width: 246px;
+    /* margin-top: 61px; */
+
+}
+
+
+.financial-support-cont-box p {
+    margin-top: 30px;
+}
+
+.financial-support-cont-box-img {
+    margin: 3rem 2.5rem;
+}
+
+.financial-support-cont-box-img-two {
+    margin: 3rem 0rem;
+}
+
+.support {
+    margin: 1rem 2rem;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.support-two {
+    margin: 1rem 2rem;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 1024px) {
+    .financial-support-cont {
+        height: 575px;
+        width: 1364px;
+    }
+
+    .financial-support-cont:nth-child(3) {
+        height: 575px;
+        width: 1364px;
+        /* background: #1C1C20;
+        border-radius: 5px;
+        margin: 5rem auto;
+        text-align: left; */
+    }
+
+    .financial-support-cont-box-text {
+        width: 594px;
+        margin-left: 2.5rem;
+        margin-top: 10rem;
+    }
+
+    .financial-support-cont-box {
+        width: 100%;
+    }
+
+    .financial-support-cont-box-img {
+        float: right;
+        margin-top: -20rem;
+        width: 508px;
+    }
+    .financial-support-cont-box-img-two {
+        float: right;
+        margin-top: -36rem;
+        margin-right: 5rem;
+        width: 508px;
+    }
+    .support {
+        width: 594px;
+        height: 74px;
+        margin-top: 15rem;
+    }
+    .support-two {
+        width: 594px;
+        height: 74px;
+        margin-top: 1rem;
+    }
+
+}
